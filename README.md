@@ -11,7 +11,7 @@ To implement MESSAGE AUTHENTICATION CODE(MAC)
    - The message \( M \) to be authenticated is input along with the secret key \( K \).
 
 3. MAC Generation:
-   - Compute the MAC by applying the hash function to the combination of the message \( M \) and the secret key \( K \): 
+   - Compute the MAC by applying the hash function to the combination of the message \( M \) and the secret key \( K \):
      \[
      \text{MAC}(M, K) = H(K || M)
      \]
